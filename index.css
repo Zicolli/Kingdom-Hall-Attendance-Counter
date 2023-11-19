@@ -1,0 +1,83 @@
+body{
+    /* display: flex; */
+    background-image: url("/Kingdom-Hall-of-Jehovahs-Witnesses.jpg");
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#borderr{
+    background-color: rgba(127,255,212,0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: yellowgreen;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: brown;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+#incremnt{
+    background:darkblue;
+    
+}
+#decremnt{
+    background: #ff4d4d;
+}
+#save{
+    background: orange;
+}
+    
+#incremnt:hover{
+    background: rgb(239, 238, 237);
+    color: brown;
+}
+#decremnt:hover{
+    background: rgb(239, 238, 237);
+    color: brown;
+}
+#save:hover{
+    background: rgb(234, 234, 241);
+    color: brown;
+}
+
+#entries{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 49px;
+    justify-content: center;
+  align-items: center;
+    background-color: gray;
+    
+
+}
